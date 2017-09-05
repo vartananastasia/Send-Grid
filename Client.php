@@ -53,7 +53,5 @@ class Client
         $err = curl_error($curl);
 
         curl_close($curl);
-
-        return $err ?: $response;
     }
 }
